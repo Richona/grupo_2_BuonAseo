@@ -1,6 +1,6 @@
 
 
-const {addCart,list,removeCart} = require('../../controllers/Api/apiCartController');
+const {addCart,list,removeCart} = require('../../controllers/api/apiCartController');
 
 const router = require('express').Router();
 

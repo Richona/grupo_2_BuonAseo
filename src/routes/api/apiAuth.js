@@ -1,6 +1,6 @@
 
 
-const { signIn, signUp, verifyEmail, verifyPassword, verifyName } = require('../../controllers/Api/apiAuthController');
+const { signIn, signUp, verifyEmail, verifyPassword, verifyName } = require('../../controllers/api/apiAuthController');
 
 const router = require('express').Router();
 const authLogin = require('../../validators/api/loginAuth')
