@@ -1,6 +1,6 @@
 const fetchWithoutToken = async (endpoint, method= "GET", data) => {
    
-    const apiUrlBase = "http://localhost:3030/api"; 
+    const apiUrlBase = `${process.env.REACT_APP_API_URL_BASE}`; 
     const url = `${apiUrlBase}${endpoint}`;
 
     let response;
